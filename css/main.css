@@ -1,0 +1,47 @@
+header {
+
+    background-color: #ffffff;
+    display: block;
+    border:1px solid #ffffff;
+    margin: 0;
+    height: 105px;
+}
+.header img {
+
+    width: 121px;
+    height: 69.99px;
+    left: 126px;
+    top: 35px;
+}
+body{
+    background: #E5E5E5;
+}
+.bandeannonce {
+
+    width: 375px;
+    height: 175px;
+    top: 120px;
+}
+.bouton{
+
+    width: 289px;
+    height: 36px;
+    left: 42px;
+    top: 302px;
+    background: #F59F00;
+}
+.bouton p{
+    position: absolute;
+    top: 302px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #808080;
+}
