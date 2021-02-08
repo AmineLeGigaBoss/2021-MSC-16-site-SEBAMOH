@@ -7,11 +7,12 @@ header {
     height: 105px;
 }
 .header img {
-
+    position: absolute;
     width: 121px;
-    height: 69.99px;
+    height: 70px;
     left: 126px;
-    top: 35px;
+    top: 37px;
+
 }
 body{
     background: #E5E5E5;
@@ -20,28 +21,23 @@ body{
 
     width: 375px;
     height: 175px;
-    top: 120px;
+    margin-top: 55px;
 }
-.bouton{
+.bouton1{
 
+    text-align: center;
     width: 289px;
     height: 36px;
-    left: 42px;
-    top: 302px;
+    top: 350px;
     background: #F59F00;
 }
-.bouton p{
-    position: absolute;
-    top: 302px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-decoration-line: underline;
 
-    color: #808080;
+.bouton2{
+    
+    text-align: center;
+    width: 289px;
+    height: 36px;
+    top: 400px;
+    background: #F59F00;
 }
+
