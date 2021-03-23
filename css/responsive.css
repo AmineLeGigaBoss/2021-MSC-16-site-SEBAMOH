@@ -1,0 +1,35 @@
+/* Petits écrans <= 480px */
+@media only screen and (max-width: 480px){
+    .titre{
+        width: 100%;
+    }
+    body{
+        min-width: 350px;
+    }
+}
+
+/* Écrans moyens >= 481px */
+@media only screen and (min-width: 481px){
+    .titre{
+        width: 70%;
+    }
+}
+
+/* Grands écrans >= 769px */
+@media only screen and (min-width: 769px) {
+    .titre{
+        width: 70%;
+    }
+}
+
+
+/* Très grand écrans >= 1024px */
+
+@media only screen and (min-width: 1024px){
+
+    header, main, footer{
+        max-width: 960px;
+        margin:0 auto;
+    }
+
+}
