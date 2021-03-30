@@ -20,6 +20,10 @@
     .titre{
         width: 70%;
     }
+    .equipesowl img{
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
 }
 
 
@@ -30,6 +34,11 @@
     header, main, footer{
         max-width: 960px;
         margin:0 auto;
+    }
+
+    .equipesowl img{
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
     }
 
 }

@@ -13,15 +13,14 @@ header {
 .logoimg {
     width: 121px;
     height: 70px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
 }
 
 .menuimg {
+    position: absolute;
     float: left;
     width: 20%;
-
+    height: auto;
 }
 
 body {
@@ -153,14 +152,14 @@ p {
 
 .notemaj img {
     width: 35%;
-    margin-left:30px;
+    margin-left: 30px;
     border: none;
     margin-bottom: 20px;
 }
 
-.notemaj h1{
+.notemaj h1 {
     margin-bottom: 10px;
-    margin-left:35px;
+    margin-left: 35px;
 }
 
 /*Footer*/
@@ -184,23 +183,96 @@ footer img {
 /*Menu*/
 /*/////*/
 
-.bodymenu {
-    background-color: #535D76;
+.menuimg {
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    float: top;
 }
 
-.bodymenu ul {
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-enfant {
+    display: none;
+    background: #535D76;
+    min-width: 50px;
+    position: absolute;
+    height: 750%;
+    width: 300%;
+}
+
+.menu-enfant a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu:hover .menu-enfant {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #535D76;
+}
+
+.menu-enfant li {
     list-style: none;
 }
 
-.bodymenu a {
-    border-left: 7px solid #F59F00;
-    line-height: 30px;
+.menu:hover main {
+    display: none;
 }
 
-.bodymenu a {
-    text-decoration: none;
-    color: white;
-    font-family: Roboto;
-    font-size: 16px;
-    border-bottom: 2px solid #FFFFFF;
+.menu-enfant a {
+    border-left: 7px solid #F59F00;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
+
+.menu-enfant a:hover {
+    background-color: #E5E5E5;
+}
+
+.menu-enfant img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu ul {
+    margin-bottom: 50px;
+}
+ /*Esport*/
+
+.imgowl{
+    width:130px;
+    height: auto;
+    margin: 15px;
+}
+
+.equipesowl{
+    display: inline-block;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.equipesowl img:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/*Notes de mise a jour*/
