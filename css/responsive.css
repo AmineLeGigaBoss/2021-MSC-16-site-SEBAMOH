@@ -6,24 +6,29 @@
     body{
         min-width: 350px;
     }
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
 }
 
 /* Écrans moyens >= 481px */
 @media only screen and (min-width: 481px){
-    .titre{
-        width: 70%;
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
     }
+
 }
 
 /* Grands écrans >= 769px */
 @media only screen and (min-width: 769px) {
-    .titre{
-        width: 70%;
-    }
-    .equipesowl img{
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);
-    }
+
+
 }
 
 
@@ -34,11 +39,6 @@
     header, main, footer{
         max-width: 960px;
         margin:0 auto;
-    }
-
-    .equipesowl img{
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);
     }
 
 }
