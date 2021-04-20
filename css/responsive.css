@@ -45,6 +45,12 @@
     header {
         height: 160px;
     }
+    .equipesowl img{
+        filter: grayscale(100%);
+    }
+    .equipesowl img:hover{
+        filter: grayscale(0%);
+    }
 }
 
 
@@ -64,6 +70,13 @@
     }
     header {
         height: 200px;
+    }
+
+    .equipesowl img{
+        filter: grayscale(100%);
+    }
+    .equipesowl img:hover{
+        filter: grayscale(0%);
     }
 
 
