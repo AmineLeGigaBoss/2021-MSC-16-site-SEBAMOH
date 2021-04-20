@@ -13,16 +13,17 @@ header {
 }
 
 .logoimg {
-    width: 121px;
-    height: 70px;
-    float: left;
+    width: 30%;
+    height: auto;
+    display: inline;
+    margin-left: auto;
+    float: right;
 }
 
 .menuimg {
-    position: absolute;
+    width: 60px;
+    height: 50px;
     float: left;
-    width: 20%;
-    height: auto;
 }
 
 body {
@@ -213,8 +214,8 @@ footer img {
     background: #535D76;
     min-width: 50px;
     position: absolute;
-    height: 750%;
-    width: 300%;
+    height: 500%;
+    width: 345%;
 }
 
 .menu-enfant a {
